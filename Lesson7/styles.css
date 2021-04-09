@@ -1,0 +1,20 @@
+.header-text{
+    text-align: center;
+}
+.green-section{
+    color: white;
+    background-color: green;
+}
+
+.section-title{
+    font-family: Arial;
+}
+.cyan{
+    color: cyan;
+}
+.cross-off{
+    text-decoration-line:line-through;
+}
+a{
+    text-decoration: none;
+}
