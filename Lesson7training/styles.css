@@ -1,0 +1,11 @@
+*{
+    font-family: Arial;
+}
+h1{text-align: center;}
+.div-green{
+    background: green;
+    color: white;
+}
+.cian{
+    color: cyan;
+}
