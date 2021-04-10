@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+   
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.752);
+    color: white;
+}
+.nav-div{
+    padding: 0.5rem;
+}
+.nav-links a {
+    padding-right: 0.4rem;
+}
+.nav-links a:hover{
+ background-color: cadetblue;
+} 

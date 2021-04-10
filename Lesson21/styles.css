@@ -77,6 +77,6 @@ body{
 .btn.btn-danger{
     background-color: #C33;
 }
-.btn.btn-danger:hover , .btn.btn-primary:danger{
+.btn.btn-danger:hover , .btn.btn-danger:hover{
     background-color: #A11;
 }
