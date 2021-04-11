@@ -24,26 +24,26 @@
     background: #069;
     grid-area: nav;
 }
-.list{
+
+.list {
     border-top: solid 1px #000;
     display: flex;
     list-style: none;
     padding: 0;
     color: white;
     justify-content: center;
-    
 }
-.list li{
-padding: 0.5rem;
 
-
+.list li {
+    padding: 0.5rem;
 }
-.list li:hover{
+
+.list li:hover {
     background: cornflowerblue;
 }
+
 .content {
     grid-area: content;
-    
     padding: .5rem;
 }
 
