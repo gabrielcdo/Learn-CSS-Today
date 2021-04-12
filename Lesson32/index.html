@@ -5,74 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    
-    <header class="nav-header">
-        <img src="./img/wds_logo.png" alt="logo" class="nav-logo">
-        <ul class="nav-links">
-            <li>Curriculum</li>
-            <li>Pricing</li>
-            <li class="nav-link-blue">Contact</li>
+    <header class="full-screen-header">
+      <nav class="nav nav-top">
+        <img src="./img/wds_logo.png" alt="Web dev simplified logo" />
+        <ul class="nav-list">
+          <li><a href="#">Curriculum</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a class="btn" href="#">Contact</a></li>
         </ul>
+      </nav>
+      <h1 class="title">WDS Bootcamp</h1>
+      <span class="sub-title">From No Stack To Full Stack</span>
+      <a class="btn" href="#">Learn More</a>
+      <img
+        class="scroll-down-icon"
+        src="./img/arrow_down (1).svg"
+        alt="scroll"
+      />
     </header>
-    
     <main>
-      <div class="header">
-        <div>
-        <h1>WDS Bootcamp</h1>
-        <p>From No Stack To Full Stack</p>
-        <button class="button-send">Learn More</button></div>
-      </div>
-      <div class="curriculum">
-        <h2 class="curriculum-h2">Curriculum</h2>
-        <div class="curriculum-part">
-          <img class="img-icon" src="./img/html_icon.svg" alt="">
-          <p>This is the content there</p>
-        </div>
-        <div class="curriculum-part">
-          <img class="img-icon" src="./img/html_icon.svg" alt="">
-          <p>This is the content there</p>
-        </div>
-        <div class="curriculum-part">
-          <img class="img-icon" src="./img/html_icon.svg" alt="">
-          <p>This is the content there</p>
-        </div>
-        <div class="curriculum-part">
-          <img class="img-icon" src="./img/html_icon.svg" alt="">
-          <p>This is the content there</p>
-        </div>
-        <div class="curriculum-part">
-          <img class="img-icon" src="./img/html_icon.svg" alt="">
-          <p>This is the conasdf asdf asdf asdf asf asdf tent there</p>
-        </div>
-        <div class="curriculum-part">
-          <img class="img-icon" src="./img/html_icon.svg" alt="">
-          <p>This is the content there</p>
+      <section class="section">
+        <h2 class="section-title">Curriculum</h2>
+        <div class="curriculum-grid">
+            <div class="curriculum-grid-item">
+                <img src="img/html_icon.svg" alt="HTML 5" />
+                <p>
+                  Start with the basics by learning HTML/CSS to build your first
+                  website
+                </p>
+              </div>
+              <div class="curriculum-grid-item">
+                <img src="img/html_icon.svg" alt="HTML 5" />
+                <p>
+                  Start with the basics by learning HTML/CSS to build your first
+                  website
+                </p>
+              </div>
+              <div class="curriculum-grid-item">
+                <img src="img/html_icon.svg" alt="HTML 5" />
+                <p>
+                  Start with the basics by learning HTML/CSS to build your first
+                  website
+                </p>
+              </div>
+              <div class="curriculum-grid-item">
+                <img src="img/html_icon.svg" alt="HTML 5" />
+                <p>
+                  Start with the basics by learning HTML/CSS to build your first
+                  website
+                </p>
+              </div>
+              <div class="curriculum-grid-item">
+                <img src="img/html_icon.svg" alt="HTML 5" />
+                <p>
+                  Start with the basics by learning HTML/CSS to build your first
+                  website
+                </p>
+              </div>
+              <div class="curriculum-grid-item"> 
+                <img src="img/html_icon.svg" alt="HTML 5" />
+                <p>
+                  Start with the basics by learning HTML/CSS to build your first
+                  website asdfasdf sdf 
+                </p>
+              </div>
         </div>
 
-      </div>
-      <div class="free">
-        <h2>FREE</h2>
-        <p>The best way to learn any <br>language and get a job</p>
-      </div>
-  
+      </section>
+      <section class="section">
+        <h2 class="section-title free-title section-accent">Free</h2>
+        <p class="free-sub-title">That's right. All of this amazing content is avaliable completely for free on 
+          Youtube!
+        </p>
+      </section>
+      <section class="section">
+        <h2 class="section-title">Contact</h2>
         <form class="form">
-          <div>
-        <h2>Contact</h2>
-        <label>Name:</label>
-        <input type="text"></div>
-        <div><label>Email:</label>
-        <input type="email"></div>
-        <div><label>Message:</label>
-        <textarea class="no-resize"></textarea></div>
-        <button class="button-send">Send</button>
-      </form>
-      
+       <label for="name">Name</label>
+       <input type="text" name="name" id="name">
+       <label for="email">Name</label>
+       <input type="email" name="email" id="email">
+       <label for="message">Name</label>
+       <textarea name="message" id="message"></textarea>
+       <button class="btn"type="submit"></button>
+        </form>
+      </section>
     </main>
-    <footer>
 
-    </footer>
   </body>
 </html>
