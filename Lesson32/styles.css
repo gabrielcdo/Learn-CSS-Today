@@ -7,9 +7,8 @@
     height: 1.5rem;
 }
 .nav-header{
-    width: 100vh;
     position: fixed;
-    top: 0;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     padding:0.5rem 1rem;
@@ -28,4 +27,60 @@
     background-color: cornflowerblue;
     padding: 0.2rem;
     border-radius: 0.5rem;
+}
+.header{
+    color: white;
+    display: flex;
+    text-align: center;
+    background-image: url(./img/header_image.jpg);
+    width: 100vw;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+.curriculum{
+    padding: 2rem 4rem;
+}
+.img-icon{
+    max-width: 3rem;
+}
+.curriculum{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    row-gap: 1rem;
+}
+.curriculum-h2{
+    grid-column: span 2;
+    text-align: center;
+}
+.curriculum-part{
+    display: flex;
+    align-items: center;
+}
+.free{
+    text-align: center;
+    padding: 2rem;
+    background-color:#099;
+    color: white;
+}
+.form{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2rem;
+    row-gap: 1rem;
+    justify-items: center;
+}
+.no-resize{
+    resize: none;
+}
+.button-send{
+    background-color: cornflowerblue;
+    border: black solid 1px;
+    color: white;
+    border-radius: 0.5rem;
+    font-size:1rem;
+}
+h2{
+    font-size: 2rem;
 }
