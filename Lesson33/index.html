@@ -29,8 +29,9 @@
     <p>Paragraph 2</p>
     <button>click me</button>
     <script>
+        const color = 'blue'
         const button = document.querySelector('button').addEventListener('click' , () =>{
-             document.documentElement.style.setProperty('--primary', 'red')
+             document.documentElement.style.setProperty('--primary', color)
 
         })
     </script>
